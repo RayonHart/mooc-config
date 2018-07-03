@@ -17,4 +17,10 @@ spring:
   profiles: dev
 
 my-name:
-  is: keven
+  is: dev
+
+---
+spring:
+  profiles: test
+my-name:
+  is: test  
