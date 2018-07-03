@@ -1,8 +1,0 @@
-server:
-  port: 9000
-  
----
-spring:
-  profiles: dev 
-aaa:
-  ccc: 12345
