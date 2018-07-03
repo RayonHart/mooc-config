@@ -28,4 +28,4 @@ my-name:
 spring:
   profiles: test
 my-name:
-  is: test  
+  is: test-000001  
