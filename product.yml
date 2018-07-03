@@ -18,4 +18,4 @@ server:
 spring:
   profiles: test
 server:
-  port: 80001
+  port: 8123
