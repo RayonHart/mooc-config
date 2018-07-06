@@ -2,11 +2,11 @@ zuul:
   ignored-services: "*"
   routes:
     config:
-      path: /config12/**
+      path: /config/**
       serviceId: config
     order:
-      path: /order12/**
+      path: /order/**
       serviceId: order
     product:
-      path: /product12/**
+      path: /product/**
       serviceId: product
