@@ -1,0 +1,12 @@
+zuul:
+  ignored-services: "*"
+  routes:
+    config:
+      path: /config/**
+      serviceId: config
+    order:
+      path: /order/**
+      serviceId: order
+    product:
+      path: /product/**
+      serviceId: product
